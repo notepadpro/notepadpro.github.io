@@ -12,7 +12,6 @@
 <link href="MiniWord.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
-<script src="wb.lazyload.min.js"></script>
 <script>
 $(document).ready(function()
 {
@@ -25,7 +24,6 @@ $(document).ready(function()
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_Bookmark2').offset().top }, 600, 'linear');
    });
-   $('img[data-src]').lazyload();
 });
 </script>
 </head>
@@ -77,7 +75,7 @@ $(document).ready(function()
 <div class="col-2">
 <hr id="Line4">
 <div id="wb_Image1">
-<img src="images/placeholder.gif" data-src="images/Notepad Pro.png" data-src-retina="images/Notepad Pro.PNG" id="Image1" alt="Notepad Pro" title="Notepad Pro">
+<img src="images/notepad.png" id="Image1" alt="Notepad Pro" title="Notepad Pro">
 </div>
 </div>
 </div>
