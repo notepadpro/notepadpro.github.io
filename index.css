@@ -737,7 +737,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 0px solid #FFFFFF;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: center;
@@ -759,19 +759,6 @@ body
    margin: 0;
    padding: 0;
 }
-#wb_Image1
-{
-   margin: 0;
-   vertical-align: top;
-}
-#Image1
-{
-   border-width: 0;
-   display: inline-block;
-   width: 284px;
-   height: 404px;
-   vertical-align: top;
-}
 #Line4
 {
    border-color: #FFFFFF;
@@ -785,11 +772,24 @@ body
    margin: 0;
    padding: 0;
 }
+#wb_Image1
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image1
+{
+   border-width: 0;
+   display: inline-block;
+   width: 280px;
+   height: 386px;
+   vertical-align: top;
+}
 #Line5
 {
    border-color: #424242;
    border-style: solid;
-   border-bottom-width: 11px;
+   border-bottom-width: 10px;
    border-top: 0px;
    border-left: 0px;
    border-right: 0px;
@@ -797,6 +797,17 @@ body
    line-height: 0px !important;
    margin: 0;
    padding: 0;
+}
+#infobar
+{
+   padding: 4px 4px 4px 4px;
+   position: fixed;
+   z-index: 999;
+   left: 0px;
+   top: -100px;
+   width: 100%;
+   border-bottom: 1px solid #000000;
+   background-color: #87CEEB;
 }
 #Shape1
 {
@@ -806,8 +817,8 @@ body
 #wb_Image1
 {
    display: inline-block;
-   width: 284px;
-   height: 404px;
+   width: 280px;
+   height: 386px;
    z-index: 6;
 }
 #wb_Bookmark1
@@ -1182,18 +1193,6 @@ body
    border-color: #FFFFFF;
    border-bottom-width: 33px;
 }
-#wb_Image1
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-   padding: 0;
-}
-#Image1
-{
-   width: 284px;
-   height: 414px;
-}
 #Line4
 {
    width: calc(100% - 0px);
@@ -1220,6 +1219,18 @@ body
 {
    visibility: visible;
    display: inline-block;
+}
+#wb_Image1
+{
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+#Image1
+{
+   width: 280px;
+   height: 386px;
 }
 }
 @media only screen and (min-width: 1280px) and (max-width: 1919px)
@@ -1527,18 +1538,6 @@ body
    border-color: #FFFFFF;
    border-bottom-width: 33px;
 }
-#wb_Image1
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-   padding: 0;
-}
-#Image1
-{
-   width: 284px;
-   height: 404px;
-}
 #Line4
 {
    width: calc(100% - 0px);
@@ -1566,18 +1565,17 @@ body
    visibility: visible;
    display: inline-block;
 }
-#Line5
+#wb_Image1
 {
-   width: calc(100% - 0px);
-   height: 11px;
    visibility: visible;
-   display: block;
+   display: inline-block;
    margin: 0;
+   padding: 0;
 }
-#Line5
+#Image1
 {
-   border-color: #424242;
-   border-bottom-width: 11px;
+   width: 280px;
+   height: 386px;
 }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1279px)
@@ -1885,18 +1883,6 @@ body
    border-color: #FFFFFF;
    border-bottom-width: 33px;
 }
-#wb_Image1
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-   padding: 0;
-}
-#Image1
-{
-   width: 284px;
-   height: 404px;
-}
 #Line4
 {
    width: calc(100% - 0px);
@@ -1924,18 +1910,17 @@ body
    visibility: visible;
    display: inline-block;
 }
-#Line5
+#wb_Image1
 {
-   width: calc(100% - 0px);
-   height: 11px;
    visibility: visible;
-   display: block;
+   display: inline-block;
    margin: 0;
+   padding: 0;
 }
-#Line5
+#Image1
 {
-   border-color: #424242;
-   border-bottom-width: 11px;
+   width: 280px;
+   height: 386px;
 }
 }
 @media only screen and (min-width: 980px) and (max-width: 1023px)
@@ -2243,18 +2228,6 @@ body
    border-color: #FFFFFF;
    border-bottom-width: 33px;
 }
-#wb_Image1
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-   padding: 0;
-}
-#Image1
-{
-   width: 284px;
-   height: 404px;
-}
 #Line4
 {
    width: calc(100% - 0px);
@@ -2282,18 +2255,17 @@ body
    visibility: visible;
    display: inline-block;
 }
-#Line5
+#wb_Image1
 {
-   width: calc(100% - 0px);
-   height: 11px;
    visibility: visible;
-   display: block;
+   display: inline-block;
    margin: 0;
+   padding: 0;
 }
-#Line5
+#Image1
 {
-   border-color: #424242;
-   border-bottom-width: 11px;
+   width: 280px;
+   height: 386px;
 }
 }
 @media only screen and (min-width: 800px) and (max-width: 979px)
@@ -2601,18 +2573,6 @@ body
    border-color: #FFFFFF;
    border-bottom-width: 33px;
 }
-#wb_Image1
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-   padding: 0;
-}
-#Image1
-{
-   width: 284px;
-   height: 404px;
-}
 #Line4
 {
    width: calc(100% - 0px);
@@ -2640,18 +2600,17 @@ body
    visibility: visible;
    display: inline-block;
 }
-#Line5
+#wb_Image1
 {
-   width: calc(100% - 0px);
-   height: 11px;
    visibility: visible;
-   display: block;
+   display: inline-block;
    margin: 0;
+   padding: 0;
 }
-#Line5
+#Image1
 {
-   border-color: #424242;
-   border-bottom-width: 11px;
+   width: 280px;
+   height: 386px;
 }
 }
 @media only screen and (min-width: 768px) and (max-width: 799px)
@@ -2959,18 +2918,6 @@ body
    border-color: #FFFFFF;
    border-bottom-width: 33px;
 }
-#wb_Image1
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-   padding: 0;
-}
-#Image1
-{
-   width: 284px;
-   height: 404px;
-}
 #Line4
 {
    width: calc(100% - 0px);
@@ -2998,18 +2945,17 @@ body
    visibility: visible;
    display: inline-block;
 }
-#Line5
+#wb_Image1
 {
-   width: calc(100% - 0px);
-   height: 11px;
    visibility: visible;
-   display: block;
+   display: inline-block;
    margin: 0;
+   padding: 0;
 }
-#Line5
+#Image1
 {
-   border-color: #424242;
-   border-bottom-width: 11px;
+   width: 280px;
+   height: 386px;
 }
 }
 @media only screen and (max-width: 767px)
@@ -3317,18 +3263,6 @@ body
    border-color: #FFFFFF;
    border-bottom-width: 33px;
 }
-#wb_Image1
-{
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-   padding: 0;
-}
-#Image1
-{
-   width: 284px;
-   height: 404px;
-}
 #Line4
 {
    width: calc(100% - 0px);
@@ -3356,17 +3290,16 @@ body
    visibility: visible;
    display: inline-block;
 }
-#Line5
+#wb_Image1
 {
-   width: calc(100% - 0px);
-   height: 11px;
    visibility: visible;
-   display: block;
+   display: inline-block;
    margin: 0;
+   padding: 0;
 }
-#Line5
+#Image1
 {
-   border-color: #424242;
-   border-bottom-width: 11px;
+   width: 280px;
+   height: 386px;
 }
 }
