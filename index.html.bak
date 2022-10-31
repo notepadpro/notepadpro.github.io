@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>Notepad Pro</title>
+
+<meta name="author" content="Mir Rahed Uddin">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="./images/icon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="./images/icon.ico" rel="apple-touch-icon" sizes="16x16">
+
+<link href="./fonts/font-awesome.min.css" rel="stylesheet">
+
+<link href="./css/style.css" rel="stylesheet">
+
+<script src="./js/jquery-1.12.4.min.js"></script>
+
+<script>
+$(document).ready(function()
+{
+   $("#wb_ResponsiveMenu1 ul li a").click(function(event)
+   {
+      $("#wb_ResponsiveMenu1 input").prop("checked", false);
+   });
+   $("a[href*='#Bookmark2']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_Bookmark2').offset().top }, 600, 'linear');
+   });
+});
+</script>
+</head>
+<body>
+<div id="container">
+<div id="wb_Bookmark1">
+<a id="Bookmark1">&nbsp;</a>
+</div>
+</div>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+<hr id="Line5">
+<div id="wb_ResponsiveMenu1">
+<label class="toggle" for="ResponsiveMenu1-submenu" id="ResponsiveMenu1-title"><span id="ResponsiveMenu1-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
+<input type="checkbox" id="ResponsiveMenu1-submenu">
+<ul class="ResponsiveMenu1" id="ResponsiveMenu1" role="menu">
+<li><a role="menuitem" href="#Bookmark2" title="Notepad Pro" rel="nofollow"><i class="fa fa-file-text fa-2x">&nbsp;</i><br>Notepad&nbsp;Pro</a></li>
+<li><a role="menuitem" href="./downloads/Setup.exe" title="Download"><i class="fa fa-download fa-2x">&nbsp;</i><br>Download</a></li>
+<li><a role="menuitem" href="https://rahedmir.github.io/" target="_blank" title="Developer" rel="nofollow"><i class="fa fa-code fa-2x">&nbsp;</i><br>Developer</a></li>
+<li><a role="menuitem" href="https://download.cnet.com/Notepad-Pro/3000-2351_4-78156428.html" target="_blank" title="CNET Download.com"><i class="fa fa-download fa-2x">&nbsp;</i><br>CNET&nbsp;Download.com</a></li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
+<div class="row">
+<div class="col-1">
+<hr id="Line1">
+<div id="wb_Bookmark2">
+<a id="Bookmark2">&nbsp;</a>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid3">
+<div id="LayoutGrid3">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text1">
+<span style="color:#4F4F4F;font-family:Tahoma;font-size:21px;"><br>Welcome</span><span style="color:#4F4F4F;font-family:Tahoma;font-size:16px;"><br><br>Notepad Pro is a generic text editor that allows you to create, open, and read plain text files.<br></span><span style="color:#696969;font-family:Tahoma;font-size:16px;"><br><br></span><span style="color:#4F4F4F;font-family:Tahoma;font-size:20px;">Special features<br><br></span><span style="color:#4F4F4F;font-family:Tahoma;font-size:16px;">1. Enable to detect URLs.<br><br>2. Spell Check - Spell Check function is available for checking spelling mistakes.<br><br>3. Zoom - You can easily Zoom In or Zoom Out the page contents from the View menu.<br><br>4. Date/Time - You can insert the date and time together or separately from the Insert menu.<br><br>5. Symbols - Let you insert different kinds of Symbols in the document.<br><br></span><span style="color:#4F4F4F;font-family:Tahoma;font-size:17px;"><br></span><span style="color:#4F4F4F;font-family:Tahoma;font-size:20px;">Supporting OS<br><br></span><span style="color:#4F4F4F;font-family:Tahoma;font-size:16px;">Windows Vista / 7 / 8 / 8.1 / 10 / 11</span><span style="color:#4F4F4F;font-family:Tahoma;font-size:17px;"><br><br><br></span><span style="color:#4F4F4F;font-family:Tahoma;font-size:20px;">Additional Requirments<br><br></span><span style="color:#4F4F4F;font-family:Tahoma;font-size:16px;">Microsoft .NET Framework 4.5 <a href="https://www.microsoft.com/en-in/download/details.aspx?id=30653" rel="nofollow" target="_blank">Download</a><br><br>Note : If you need built-in features such as multimedia (e.g., pictures), etc. you should be using a word processor and not a text editor.<br><br>Download <a href="http://editpad.github.io/" target="_blank">Edit Pad</a></span>
+</div>
+</div>
+<div class="col-2">
+<hr id="Line4">
+<div id="wb_Image1">
+<img src="images/Notepad Pro.png" id="Image1" alt="Notepad Pro" title="Notepad Pro">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid4">
+<div id="LayoutGrid4">
+<div class="row">
+<div class="col-1">
+<hr id="Line2">
+<div id="wb_Shape1">
+<a href="./Setup.exe" title="Notepad Pro"><img class="hover" src="images/img0001_hover.png" alt="DOWNLOAD" style="border-width:0;width:157px;height:51px;"><span><img src="images/img0001.png" id="Shape1" alt="DOWNLOAD"></span></a>
+</div>
+<hr id="Line3">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_Footer">
+<div id="Footer">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text9">
+<span style="color:#000000;font-family:Arial;font-size:13px;"><br></span><span style="color:#FFFFFF;font-family:Tahoma;font-size:15px;">Copyright © 2019 Mir Rahed Uddin</span><span style="color:#000000;font-family:Arial;font-size:13px;"><br></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div style="z-index:12">
+<div id="infobar">
+<a href="javascript:closeInfoBar()"><img src="icon_close.gif" style="width: 14px; height: 14px; float: right; border: 0; margin-right: 5px" /></a>
+<span style="color:#000000;font-size:12px;font-family:Verdana;font-weight:normal;font-style:normal;text-decoration:none;padding:0px 0;">A new version (2.2.0.0) of Notepad Pro is now available!</span>
+</div>
+<script>
+function showInfoBar()
+{
+   var infobar = document.getElementById("infobar");
+   var top = parseInt(infobar.style.top);
+   if (top < 0)
+   {
+      top += 5;
+      infobar.style.top = top+"px";
+      setTimeout(function(){showInfoBar()}, 50);
+   }
+   else
+   {
+      if (document.all && !window.XMLHttpRequest)
+         infobar.style.setExpression("top", 'document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px" : body.scrollTop+"px"');
+      else
+         infobar.style.top = 0;
+   }
+}
+function closeInfoBar()
+{
+   document.getElementById("infobar").style.display = "none";
+}
+function initInfoBar()
+{
+   var docWidth = 800;
+
+   if (typeof window.innerWidth != 'undefined')
+   {
+      docWidth = window.innerWidth;
+   }
+   else 
+   if (typeof document.documentElement != 'undefined' && typeof document.documentElement.clientWidth != 'undefined' && document.documentElement.clientWidth != 0)
+   {
+      docWidth = document.documentElement.clientWidth;
+   }
+   else
+   {
+      docWidth = document.getElementsByTagName('body')[0].clientWidth;
+   }
+  // document.getElementById("infobar").style.width = "100%";
+
+   var height = parseInt(document.getElementById("infobar").offsetHeight);
+   document.getElementById("infobar").style.top = height*(-1)+"px";
+   
+   showInfoBar();
+}
+initInfoBar();
+</script></div>
+</body>
+</html>
